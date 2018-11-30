@@ -19,668 +19,365 @@
   <body>
 
     <header class="header" role="banner">
-      <div class="container">
-        <div class="row">
-          <div class="logo col-md-3 col-sm-4 col-xs-3">
+        <div class="logo">
             <a href="/">
               <img src="assets/img/logo.png" alt="Logo">
             </a>
-          </div>
-          <div class="col-md-9 col-sm-8 col-xs-9">
-            <nav class="nav desctop" role="navigation">
-              <ul>
-                <li>
-                  <a href="/">Home</a>
-                </li>
-                <li>
-                  <a href="/">About</a>
-                </li>
-                <li>
-                  <a href="/">Work</a>
-                </li>
-                <li>
-                  <a href="/">Blog</a>
-                </li>
-                <li>
-                  <a href="/">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
         </div>
-      </div>
-      <div class="nav-hamb">
-        <nav role="navigation">
-            <div class="container">
-                <div class="logo__container">
-                    <div class="logo__mobile">
-                        <a href="/"><img src="assets/img/logo.png" alt="logo"></a>
-                    </div>
-                </div>
-                <div id="menuToggle">
-            
-                  <input type="checkbox" id="opclose"/>
-                  
-                  
-                  <span></span>
-                  <span></span>
-                  <span></span>
-        
-                  <ul id="menu">
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                        <li>
-                            <a href="/">About</a>
-                        </li>
-                        <li>
-                            <a href="/">Work</a>
-                        </li>
-                        <li>
-                          <a href="/">Blog</a>
-                       </li>
-                       <li>
-                        <a href="/">Contact</a>
-                      </li>
-                  </ul>
-                </div>
-            </div><!-- container-->
+        <nav class="nav desctop" role="navigation">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/">News</a>
+                </li>
+                <li class="menu-item"> 
+                    <a href="/">Gallery</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/">Pages</a>
+                </li>
+                <li class="menu-item rel-pos">
+                    <a href="/">Layouts</a>
+                    <ul class="submenu triangle-top">
+                    <li><a href="">Headers</a>
+                    <ul class="submenu triangle-right">
+                        <li><a href="">No header</a></li>
+                        <li><a href="">Only bread crumbs</a></li>
+                        <li><a href="">Automatic</a></li>
+                        <li><a href="">Custom Text/HTML</a></li>
+                        <li><a href="">Twitter feed</a></li>
+                        <li><a href="">Slider</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="">Sidebars</a>
+                    </li>
+                    <li><a href="">Columns</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="/">Features</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/">Blog</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/">Contact</a>
+                </li>
+            </ul>
         </nav>
-</div><!-- nav-hamb -->
     </header>
 
     <main class="main" role="main">
-        <section class="header__section"><!--  begin header sections -->
-            <div class="container">
-                <div class="row">
-                    <div class="header__text col-md-12">
-                      <p>Hi there! We are the new kids on the block<br>
-                        and we build awesome websites and mobile apps.</p>
+        <section class="header__section">
+            <div class="header__section--image">
+                <img src="./assets/img/header-section/head.png" alt="head image">
+            </div>
+            <div class="header__section--heading">
+                <p>
+                    About To Lead<br> Huge Spotify<br> Funding
+                </p>
+            </div>
+            <div class="header__section--descriptions">
+                <p>
+                    European streaming music startup Spotify is in the process of closing a very large financing, say multiple sources. DST, the venture firm that has backed Facebook, Groupon and Zynga, is said to be leading the deal, which values Spotify.
+                    Read more
+                </p>
+            </div>
+            <div class="header__section--links">
+                <a href="#">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </section>
+        <section class="container__section">
+            <div class="catalog">
+                <div class="catalog__heading">
+                    <p>
+                        Custom menu
+                    </p>
+                </div>
+                <div class="catalog__accordion">
+                        <ul class="cd-accordion-menu animated">
+                                <li><a href="#">Product Overview</a></li>
+                                <li><a href="#">Content Managment</a></li>
+                                <li><a href="#">Online Store</a></li>
+                                <li class="has-children arrow-down">
+                                    <input type="checkbox" name ="group-1" id="group-1" >
+                                    <label for="group-1">Email Marketing</label>
+                        
+                                      <ul>
+                                          <li class="has-children bg2 arrow-down">
+                                              <input type="checkbox" name ="sub-group-1" id="sub-group-1">
+                                            <label for="sub-group-1">Sub Group 1</label>
+                        
+                                            <ul class="bg3">
+                                                <li><a href="#0">Image</a></li>
+                                                <li><a href="#0">Image</a></li>
+                                                <li><a href="#0">Image</a></li>
+                                            </ul>
+                                          </li>
+                                          <li class="has-children bg2 arrow-down">
+                                              <input type="checkbox" name ="sub-group-2" id="sub-group-2">
+                                            <label for="sub-group-2">Sub Group 2</label>
+                        
+                                            <ul>
+                                                <li class="has-children bg3 arrow-down">
+                                                    <input type="checkbox" name ="sub-group-level-3" id="sub-group-level-3">
+                                                    <label for="sub-group-level-3">Sub Group Level 3</label>
+                        
+                                                    <ul>
+                                                        <li><a href="#0">Image</a></li>
+                                                        <li><a href="#0">Image</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="bg3 "><a href="#0">Image</a></li>
+                                            </ul>
+                                          </li>
+                                          <li class="bg2"><a href="#0">Image</a></li>
+                                        <li class="bg2"><a href="#0">Image</a></li>
+                                      </ul>
+                                </li>
 
-                      <a href="/" class="header__link">WORK WITH US!</a>
+                                <li><a href="#">Powerful Modules</a></li>
+                        
+                                <li class="has-children arrow-down">
+                                        <input type="checkbox" name ="group-4" id="group-4" >
+                                        <label for="group-4">CRM & Web Form Builder</label>
+                            
+                                          <ul>
+                                              <li class="has-children bg2 arrow-down">
+                                                  <input type="checkbox" name ="sub-group-4" id="sub-group-4">
+                                                <label for="sub-group-4">Full Features</label>
+                            
+                                                <ul class="bg3">
+                                                    <li><a href="#0">Image</a></li>
+                                                    <li><a href="#0">Image</a></li>
+                                                    <li><a href="#0">Image</a></li>
+                                                </ul>
+                                              </li>
+                                              <li class="bg2"><a href="#">Extensibility</a></li>
+                                              <li class="has-children bg2 arrow-down">
+                                                  <input type="checkbox" name ="sub-group-5" id="sub-group-5">
+                                                <label for="sub-group-5">Email, Hosting & Simple DNS</label>
+                            
+                                                <ul class="bg3">
+                                                    <li class="has-children arrow-down">
+                                                        <input type="checkbox" name ="sub-group-level-6" id="sub-group-level-6">
+                                                        <label for="sub-group-level-6">Content Managment</label>
+                            
+                                                        <ul>
+                                                            <li><a href="#0">Online Store</a></li>
+                                                            <li><a href="#0">Email Marketing</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#0">Online Store</a></li>
+                                                    <li><a href="#0">Email Marketing</a></li>
+                                                </ul>
+                                              </li>
+                                              <li class="bg2"><a href="#0">Shipping Providers</a></li>
+                                            <li class="bg2"><a href="#0">Reporting & Analytic</a></li>
+                                          </ul>
+                                    </li>
+                                    <li><a href="#0">Reporting & Analytics</a></li>
+                                    <li><a href="#0">Design & Customization</a></li>
+                               
+                        
+                              
+                                
+                            </ul> <!-- cd-accordion-menu -->
+                </div>
+            </div>
+            <div class="page__content">
+                <div class="article-head">
+                    <div class="article__heading">
+                            <p>
+                                Is The First Official Chrome OS Device A Monitor Or All-In-One PC? Nope.
+                            </p>
+                    </div>
+                    <div class="article__date">
+                        <p>
+                            19
+                        </p>
+                        <p>
+                            mar
+                        </p>
+                        <p>
+                            2011
+                        </p>
+                    </div>
+                </div>
+                <div class="article-descriptions">
+                    <p>
+                        AudioBoo, the social sound sharing startup, has developed an iPhone framework that gives drag and drop audio recording functionality to any iPhone app. That means any app developer can now add Audioboo recording functionality to their app, thus adding a new kind of social functionality. 
+                    </p>
+                </div>
+                <div class="article-text-head">
+                    <p>
+                        Deployment tools
+                    </p>
+                </div>
+                <div class="article-text">
+                    <p>
+                        But that’s probably not what will immediately kick off a new wave of users. Audioboo plans to officially launch this with a number of high profile media partners “in a couple of weeks” including the BBC, ABC Australia, Guardian, Aljazeera, Sky News and more all trialling the beta versions of the new platform that works with the plugin. A revamp of the Android version of the app will bring it up to par with the iPhone and have a similar plugin environment.
+                    </p>
+                    <img class="first__image" src="./assets/img/header-section/12.png" alt="people image">
+                    <p>
+                        Image caption
+                    </p>
+                    <p>
+                            To keep it simple, I’d recogher average scores or for deciding betmmend a total of four to five principles; but as with everything, tailor it to your own business. One effective method I have found is to set your principles in a spreadsheet, rank them, and then decide on a cut-off average for qualification. This is a great tool for identifying deals with highe average scores or for deciding between two potential deals. We’ve prepared an example of such a spreadsheet ber of high profile mdentifying deals with hiedia partners “in a couple of weeks” including the BBC, ABC Australia, Guardian, Aljazeera, Sky News and more all trialling the beta 
+                            <img class="img2" src="./assets/img/header-section/14.png" alt="img">To keep it simple, I’d recommend a total of four to five principles; but as with everything, tailor it to your own business. One effective method I have found is to set your principles in a spreadsheet, rank them, and then decide on a cut-off average for qualification. <br><br>
+
+                            This is a great tool for identifying deals with higher average scores or for deciding between two potential deals. We’ve prepared an example of such a spreadsheet. But that’s probably not what will immediately kick off a new wave of users. Audioboo plans to officially launch this with a number of high profile media partners “in a couple of weeks” including the BBC, ABC Australia, Guardian, Aljadentifying deals with hizeera, Sky News and more all trialling the beta versions of the new platform thA revamp of the Android version of the app will bring it up to par with the iPhone and have a similar plugin environment. Audoboo CEO and founder Mark Rock believes this will “fundamentally change the nature of how audio is captured and then distributed on the Internet.” Clearly this will give audioboo a lot of potential for scale compared to competitors like SoundCloud and Cinch who continue to rely on user-generated growth.
+                    </p>
+                    <div class="article-text2">
+                            <p>
+                                Deployment tools
+                            </p>
+                    </div>
+                    <p>
+                            But that’s probably not what will immediately kick off a new wave of users. Audioboo plans to officially launch this with a number of high profile media partneraClearly this will give audioboo a lot of potential for scale compared to competitors like SoundCloud and Cinch who continue to rely on user-generated growth.<br><br>
+
+                            SoundCloud recently entered into the spoken word space, technically the “patch” of Audioboo. Audioboo was technically the first in 2009 to make voice “social” but it’s been joined by others like Broadcastr, Cinch and also iPadio, though iPadio is more enterprise focused. However, Soundcloud’s music focus has given it an impressive range of features in manipulating sound, while Audioboo has concentrated on dealing with broadcasters and media martners.s “in a couple of weeks” including the BBC, ABC Australia, Guardian, Aljazeera, Sky News and more all trialling the beta versions of the new platform that works with the plugin. A revamp of the Android version of the app will bring it up to par with the iPhone and have a similar plugin.
+                    </p>
+                    <div class="buttons__block">
+                        <a href="#">Previous news</a>
+                        <a href="#">Next news</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="services__we--provide">
+        <section class="clients">
             <div class="container">
-                <div class="row">
-                    <div class="services__heading col-md-12">
-                        <p>
-                          SERVICES WE PROVIDE
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="services__descriptions col-md-12">
-                        <p>
-                          We are working with both individuals and businesses from all over the globe<br> 
-                          to create awesome websites and applications.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="services__item col-md-3 col-sm-6">
-                        <div class="services__item--image">
-                            <img src="assets/img/services/flag.png" alt="flag">
-                        </div>
-                        <div class="services__item--heading">
-                            <p>
-                              Branding
-                            </p>
-                        </div>
-                        <div class="services__item--descriptions">
-                            <p>
-                              Lorem ipsum dolor sit amet, 
-                              consectetuer adipiscing elit, sed diam nonummy nibh.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="services__item col-md-3 col-sm-6">
-                      <div class="services__item--image">
-                        <img src="assets/img/services/pencil.png" alt="pencil">
-                      </div>
-                      <div class="services__item--heading">
-                          <p>
-                            Design
-                          </p>
-                      </div>
-                      <div class="services__item--descriptions">
-                          <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                          </p>
-                      </div>
-                  </div>
-                  <div class="services__item col-md-3 col-sm-6">
-                      <div class="services__item--image">
-                          <img src="assets/img/services/gearweel.png" alt="gearweel">
-                      </div>
-                      <div class="services__item--heading">
-                          <p>
-                            Development
-                          </p>
-                      </div>
-                      <div class="services__item--descriptions">
-                          <p>
-                            At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.
-                          </p>
-                      </div>
-                  </div>
-                  <div class="services__item col-md-3 col-sm-6">
-                      <div class="services__item--image">
-                          <img src="assets/img/services/raketa.png" alt="raketa">
-                      </div>
-                      <div class="services__item--heading">
-                          <p>
-                            ROCKET SCIENCE
-                          </p>
-                      </div>
-                      <div class="services__item--descriptions">
-                          <p>
-                            Et harum quidem rerum est et expedita distinctio. Nam libero tempore.
-                          </p>
-                      </div>
-                  </div>
-                </div>
+                <p>
+                    Our clients
+                </p>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
             </div>
-        </section><!--  end header sections -->
-        <section class="meet__team"> <!--  begin meet team sections -->
-            <div class="container">
-              <div class="row">
-                  <div class="meetteam__heading col-md-12">
-                      <p>
-                        MEET OUR BEAUTIFUL TEAM
-                      </p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="meetteam__descriptions col-md-12">
-                      <p>
-                        We are a small team of designers and developers, who help brands with big ideas.
-                      </p>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="meetteam__item col-md-3 col-sm-6">
-                    <div class="meetteam__item--image">
-                        <img src="assets/img/meet-team/Base.png" alt="base">
-                    </div>
-                    <div class="meetteam__item--heading">
-                        <p>
-                          ANNE HATHAWAY
-                        </p>
-                        <p class="work__position">
-                          CEO / Marketing Guru
-                        </p>
-                    </div>
-                    <div class="meetteam__item--descriptions">
-                        <p>
-                            Lorem ipsum dolor sit amet, 
-                            consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
-                        </p>
-                    </div>
-                    <div class="meetteam__item--socials">
-                      <ul>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                      </ul>
-                  </div>
-                </div>
-                <div class="meetteam__item col-md-3 col-sm-6">
-                    <div class="meetteam__item--image">
-                        <img src="assets/img/meet-team/Base.png" alt="base">
-                    </div>
-                    <div class="meetteam__item--heading">
-                        <p>
-                            Kate Upton
-                        </p>
-                        <p class="work__position">
-                            Creative Director
-                        </p>
-                    </div>
-                    <div class="meetteam__item--descriptions">
-                        <p>
-                            Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.
-                        </p>
-                    </div>
-                    <div class="meetteam__item--socials">
-                      <ul>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                      </ul>
-                  </div>
-                </div>
-                <div class="meetteam__item col-md-3 col-sm-6">
-                    <div class="meetteam__item--image">
-                        <img src="assets/img/meet-team/Base.png" alt="base">
-                    </div>
-                    <div class="meetteam__item--heading">
-                        <p>
-                            Olivia Wilde
-                        </p>
-                        <p class="work__position">
-                            Lead Designer
-                        </p>
-                    </div>
-                    <div class="meetteam__item--descriptions">
-                        <p>
-                            Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.
-                        </p>
-                    </div>
-                    <div class="meetteam__item--socials">
-                      <ul>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                      </ul>
-                  </div>
-                </div>
-                <div class="meetteam__item col-md-3 col-sm-6">
-                    <div class="meetteam__item--image">
-                        <img src="assets/img/meet-team/Base.png" alt="base">
-                    </div>
-                    <div class="meetteam__item--heading">
-                        <p>
-                            Ashley Greene
-                        </p>
-                        <p class="work__position">
-                            SEO / Developer
-                        </p>
-                    </div>
-                    <div class="meetteam__item--descriptions">
-                        <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                        </p>
-                    </div>
-                    <div class="meetteam__item--socials">
-                      <ul>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                      </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </section>  <!--  end meet team sections -->
-        <section class="we__got--skills"> <!--  begin  we got skills sections -->
-              <div class="container">
-                    <div class="row">
-                        <div class="skills__heading col-md-12">
-                            <p>
-                                WE GOT SKILLS!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                          <div class="skills__descriptions col-md-12">
-                              <p>
-                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-                                  tempor incididunt ut labore et dolore magna aliqua.                      
-                              </p>
-                          </div>
-                    </div>
-                    <div class="row">
-                        <div class="skills__item col-md-3 col-sm-6 col-xs-12">
-                            <div class="skills__item--image">
-                                <img src="assets/img/skills/1.png" alt="parcents">
-                            </div>
-                            <div class="skills__item--heading">
-                                <p>
-                                  ROCKET SCIENCE
-                                </p>
-                            </div>
-                        </div>
-                        <div class="skills__item col-md-3 col-sm-6 col-xs-12">
-                            <div class="skills__item--image">
-                                <img src="assets/img/skills/2.png" alt="parcents">
-                            </div>
-                            <div class="skills__item--heading">
-                                <p>
-                                  HTML / CSS
-                                </p>
-                            </div>
-                        </div>
-                        <div class="skills__item col-md-3 col-sm-6 col-xs-12">
-                            <div class="skills__item--image">
-                                <img src="assets/img/skills/3.png" alt="parcents">
-                            </div>
-                            <div class="skills__item--heading">
-                                <p>
-                                  GRAPHIC DESIGN
-                                </p>
-                            </div>
-                        </div>
-                        <div class="skills__item col-md-3 col-sm-6 col-xs-12">
-                            <div class="skills__item--image">
-                                <img src="assets/img/skills/4.png" alt="parcents">
-                            </div>
-                            <div class="skills__item--heading">
-                                <p>
-                                  UI / UX
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-              </div>
-        </section> <!--  end  we got skills sections -->
-        <section class="portfolio"><!--  begin  portfolio sections -->
-            <div class="container">
-                <div class="row">
-                    <div class="portfolio__heading col-md-12">
-                        <p>
-                            OUR PORTFOLIO
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                      <div class="portfolio__descriptions col-md-12">
-                          <p>
-                              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>
-                              consectetur, adipisci velit, sed quia non numquam                     
-                          </p>
-                      </div>
-                </div>
-                <div class="row">
-                    <div class="portfolio__filter col-md-12 col-sm-12 col-xs-12">
-                        <a href="/" class="filter__item">All</a>
-                        <a href="/" class="filter__item">Web</a>
-                        <a href="/" class="filter__item">Apps</a>
-                        <a href="/" class="filter__item">Icons</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="portfolio__item col-md-6">
-                        <a href="/">
-                            <div class="item__preview">
-                                <img src="assets/img/portfolio/1.png" alt="preview">
-                            </div>
-                            <div class="item__heading">
-                                <p>
-                                    Isometric Perspective Mock-Up
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio__item col-md-6">
-                        <a href="/">
-                            <div class="item__preview">
-                                <img src="assets/img/portfolio/2.png" alt="preview">
-                            </div>
-                            <div class="item__heading">
-                                <p>
-                                    time zone app ui
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio__item col-md-6">
-                        <a href="/">
-                            <div class="item__preview">
-                                <img src="assets/img/portfolio/3.png" alt="preview">
-                            </div>
-                            <div class="item__heading">
-                                <p>
-                                    Viro Media Players UI
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio__item col-md-6">
-                        <a href="/">
-                            <div class="item__preview">
-                                <img src="assets/img/portfolio/4.png" alt="preview">
-                            </div>
-                            <div class="item__heading">
-                                <p>
-                                    Blog / Magazine Flat UI Kit
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="portfolio__button--lm col-md-12 col-sm-12 col-xs-12">
-                        <a href="/" class="header__link">LOAD MORE PROJECTS</a>
-                    </div>
-                </div>
-            </div>
-        </section><!--  end  portfolio sections -->
-        <section class="about__us"><!-- begin about us sections -->
-            <div class="container">
-                <div class="row">
-                    <div class="about__heading col-md-12">
-                        <p>
-                            WHAT POEPLE SAY ABOUT US
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                      <div class="about__descriptions col-md-12">
-                          <p>
-                              Our clients love us!                  
-                          </p>
-                      </div>
-                </div>
-                <div class="row">
-                    <div class="about__item col-md-6">
-                        <div class="col-sm-3">
-                            <div class="about__image">
-                                <img src="assets/img/about/Base.png" alt="about">
-                            </div>
-                        </div>
-                        <div class="col-sm-9">
-                            <div class="about__quote">
-                                <p>
-                                    “Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
-                                </p>
-                            </div>
-                            <div class="about__head">
-                                <p>
-                                    Chanel Iman
-                                </p>
-                            </div>
-                            <div class="about__person--position">
-                                <p>
-                                    CEO of Pinterest
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about__item col-md-6">
-                        <div class="col-sm-3">
-                            <div class="about__image">
-                                <img src="assets/img/about/Base.png" alt="about">
-                            </div>
-                        </div>
-                        <div class="col-sm-9">
-                            <div class="about__quote">
-                                <p>
-                                    “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
-                                </p>
-                            </div>
-                            <div class="about__head">
-                                <p>
-                                    ADRIANA LIMA
-                                </p>
-                            </div>
-                            <div class="about__person--position">
-                                <p>
-                                    Founder of Instagram
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about__item col-md-6">
-                        <div class="col-sm-3">
-                            <div class="about__image">
-                                <img src="assets/img/about/Base.png" alt="about">
-                            </div>
-                        </div>
-                        <div class="col-sm-9">
-                            <div class="about__quote">
-                                <p>
-                                    “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
-                                </p>
-                            </div>
-                            <div class="about__head">
-                                <p>
-                                    ANNE HATHAWAY
-                                </p>
-                            </div>
-                            <div class="about__person--position">
-                                <p>
-                                    Lead Designer at Behance
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about__item col-md-6">
-                        <div class="col-sm-3">
-                            <div class="about__image">
-                                <img src="assets/img/about/Base.png" alt="about">
-                            </div>
-                        </div>
-                        <div class="col-sm-9">
-                            <div class="about__quote">
-                                <p>
-                                    “Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”
-                                </p>
-                            </div>
-                            <div class="about__head">
-                                <p>
-                                    EMMA STONE
-                                </p>
-                            </div>
-                            <div class="about__person--position">
-                                <p>
-                                    Co-Founder of Shazam
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- end about us sections -->
-        <section class="contact"><!-- begin contact sections -->
-              <div class="container">
-                  <div class="row">
-                      <div class="contact__heading col-md-12">
-                          <p>
-                              GET IN TOUCH
-                          </p>
-                      </div>
-                  </div>
-                  <div class="row">
-                        <div class="contact__descriptions col-md-12">
-                            <p>
-                                1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111            
-                            </p>
-                        </div>
-                  </div>
-                  <div class="row">
-                      <div class="contact__item col-md-12">
-                              <form action="" method="post" class="ajax_form">
-                                  <input id="namein" name="name" type="text" placeholder="Your Name *" required value="" required="required">
-                                  <input name="email" type="email" placeholder="Your Email *" required value=""><br>
-                                  <textarea class="form-control" placeholder="Your Message *" required name="message" value=""></textarea>
-                                  <button type="submit">SEND MESSAGE</button>
-                              </form>
-                      </div>
-                  </div>
-              </div>
-        </section><!-- end contact sections -->
+        </section>
     </main>
 
     <footer class="footer" role="contentinfo">
-        <div class="container">
-            <div class="row">
-                <div class="footer__items col-md-12">
-                    <ul>
-                        <li>
-                            <a href="#">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="#">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#"> Google+</a>
-                        </li>
-                        <li>
-                            <a href="#">LinkedIn</a>
-                        </li>
-                        <li>
-                            <a href="#">Behance</a>
-                        </li>
-                        <li>
-                            <a href="#">Dribbble</a>
-                        </li>
-                        <li>
-                            <a href="#">GitHub</a>
-                        </li>
-                    </ul>
+        <div class="flex-container">
+            <div class="flex-item">
+                <p>
+                    Quick links
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Your custom 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Additional menu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Features
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Cusomers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-item">
+                <ul>
+                    <li>
+                        <a href="#">
+                            Additional menu
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Features
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Cusomers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-item">
+                <ul>
+                    <li>
+                        <a href="#">
+                            Features
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Cusomers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-item">
+                <p>
+                    Security & Privacy
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Security
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Terms of Service
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-item">
+                <p>
+                    Stay in touch
+                </p>
+                <div class="social__wrapper">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
                 </div>
+                <p>
+                    Copyright (C) 2011 Company Inc.
+                </p>
             </div>
         </div>
     </footer>
